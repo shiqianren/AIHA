@@ -1,0 +1,43 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - NBSwipePageView (0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2.5)
+  - NBSwipePageView (from `https://github.com/xuzhe/NBSwipePageView.git`)
+  - SDWebImage (~> 3.7)
+
+EXTERNAL SOURCES:
+  NBSwipePageView:
+    :git: https://github.com/xuzhe/NBSwipePageView.git
+
+CHECKOUT OPTIONS:
+  NBSwipePageView:
+    :commit: d225421d08f027090bcb56775f3268d857ccd0ee
+    :git: https://github.com/xuzhe/NBSwipePageView.git
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  NBSwipePageView: 70ac42baadaef15efa2e98edc5fc572f37e4c4b7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 380a1f07edad1ac2a800e8cbf200c393752ada00
+
+COCOAPODS: 1.0.0
